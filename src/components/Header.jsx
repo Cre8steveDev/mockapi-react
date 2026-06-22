@@ -1,12 +1,10 @@
-import "./styles/Header.css";
-import { Link } from "react-router-dom";
+import React from "react";
 
 const Header = () => {
-  return (
-    <header>
-      <div className="nav-link"></div>
-    </header>
-  );
+    return <header>
+      
+        
+  </header>;
 };
 
 export default Header;
