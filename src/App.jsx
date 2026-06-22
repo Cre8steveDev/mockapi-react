@@ -6,13 +6,13 @@ import HeroSection from "./components/HeroSection";
 
 const App = () => {
   return (
-    <div>
+    <BrowserRouter>
       <section className="inner-container">
         <Header />
         <HeroSection />
         <Footer />
       </section>
-    </div>
+    </BrowserRouter>
   );
 };
 
