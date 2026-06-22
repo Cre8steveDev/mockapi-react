@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <section>
+      <div className="main-footer-content">
+        <img src="/src/assets/image.png" alt="" className="logo-img" />
+      </div>
+    </section>
+  );
+};
 
-export default Footer
+export default Footer;
