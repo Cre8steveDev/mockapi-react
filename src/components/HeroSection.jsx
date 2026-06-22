@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import "./Hero.css";
 
 const HeroSection = () => {
   return (
@@ -8,13 +9,17 @@ const HeroSection = () => {
           <h1>Aptech computer Education Benein City</h1>
           <p>Premium IT institute in the heartbeat of the nation.</p>
           <div className="hero-actions">
-            <button className="hero-button hero-button-primary">Get Started</button>
-            <button className="hero-button hero-button-secondary">Our Contacts</button>
+            <button className="hero-button hero-button-primary">
+              Get Started
+            </button>
+            <button className="hero-button hero-button-secondary">
+              Our Contacts
+            </button>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
