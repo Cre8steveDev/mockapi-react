@@ -1,0 +1,53 @@
+* {
+  text-decoration: none;
+}
+
+header {
+  background-color: brown;
+}
+.header-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color:black; */
+
+  max-width: 1200px;
+  margin-inline: auto;
+  font-family: "Fira Code";
+}
+
+.img-cont {
+  img {
+    width: 70px;
+  }
+}
+
+.nav-cont {
+  display: flex;
+  gap: 20px;
+  a {
+    color: rgb(249, 181, 55);
+    /* font-weight: bold; */
+  }
+}
+
+.cta-button {
+  display: inline-flex;
+  gap: 5px;
+  button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+.register-btn {
+  color: white;
+  background-color: rgb(249, 181, 55);
+}
+
+.contact-btn {
+  color: rgb(249, 181, 55);
+  border: 2px solid rgb(249, 181, 55) !important;
+  background-color: transparent;
+}
