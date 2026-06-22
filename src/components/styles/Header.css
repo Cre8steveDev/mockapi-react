@@ -4,8 +4,11 @@
 
 header {
   background-color: brown;
+  position: sticky;
+  top: 0;
 }
 .header-cont {
+  padding: 7px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +36,7 @@ header {
 
 .cta-button {
   display: inline-flex;
-  gap: 5px;
+  gap: 15px;
   button {
     padding: 5px 20px;
     border: none;
@@ -44,10 +47,18 @@ header {
 .register-btn {
   color: white;
   background-color: rgb(249, 181, 55);
+  transition: 0.3s;
+  &:hover {
+    transform: translateX(-2px) translateY(2px);
+  }
 }
 
 .contact-btn {
   color: rgb(249, 181, 55);
   border: 2px solid rgb(249, 181, 55) !important;
   background-color: transparent;
+  transition: 0.3s;
+  &:hover {
+    scale: 1.05;
+  }
 }
